@@ -1,0 +1,26 @@
+<?php
+//formRegistrationResponse.php
+include("../common/document_head.html");
+?>
+  <body>
+    <header>
+      <?php
+      include("../common/banner.php");
+      include("../common/menus.html");
+      include("../scripts/connectToDatabase.php");
+      ?>
+    </header>
+    <main>
+      <article class="Registration">
+        <?php
+        include("../scripts/formRegistrationProcess.php");
+        ?>
+      </article>
+    </main>
+    <footer>
+      <?php
+      include("../common/footer.html");
+      ?>
+    </footer>
+  </body>
+</html>
